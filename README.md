@@ -1,18 +1,13 @@
-# crossingkey-developer-documentation
+# CrossingKey Developer Documentation
 
-Developer documentation, public integration guidance, compatibility notes, and technical references for CrossingKey.
+Public integration guidance, compatibility notes, and technical references for CrossingKey.
 
-## Repository boundary
+## Getting started
 
-This repository exists as part of the CrossingKey Holdings portfolio. Its contents are maintained for clarity, long-term readability, and responsible release management.
+1. Read the relevant product or specification before implementation.
+2. Confirm the release version and compatibility notes.
+3. Use non-production data for experiments.
+4. Store credentials in environment-managed secrets, never source control.
+5. Report documentation defects through the repository issue tracker when available.
 
-## Publication standard
-
-Public repositories contain only material suitable for public review. Private repositories may contain internal source, operational context, or deployment material and must never contain credentials, customer data, or unmanaged secrets.
-
-## Related repositories
-
-- [CrossingKey Intelligence](https://github.com/crossingkey-holdings/crossingkey-intelligence)
-- [Founder Record](https://github.com/crossingkey-holdings/crossingkey-founder-record)
-- [Design Language](https://github.com/crossingkey-holdings/crossingkey-design-language)
-- [Product Catalog](https://github.com/crossingkey-holdings/crossingkey-product-catalog)
+Compatibility claims apply only where a release names a version, interface, or environment. Integrators remain responsible for access control, data handling, key rotation, dependency review, and testing in their own environment.
